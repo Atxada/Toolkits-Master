@@ -1,24 +1,3 @@
-"""
-TODO:
-1. hierarchy search v
-2. add subfolder extendable v
-3. add QCompleter (see UI module from Node editor) v
-4. create installer dropable and test KitFai's scripts v
-5. thinking about import and depedencies problem when put all script as command (1. add dependencies folder and inside drop installer also copy it 2. copy paste manual (least error) 3. modify script to be familiar with) v
-6. Script button bigger + backup svg + make similar to cgjishu v
----
-7. multi tab menu + bug when reload before exit script v
-8. add syntax highlight (optional) + number v
-9. edit and add/remove menu/scripts + save to scriptdata.json v
-10. find text feature v
-11. UI refresh final v
-
-EXTRA TODO:
-1. create undo redo and history
-2. improve overall user experience (shift to close all or open all) 
-3. accept drop script + write toolkit + dockable and remember config between session
-"""
- 
 from PySide2 import QtCore,QtWidgets,QtGui
 from shiboken2 import wrapInstance
 
